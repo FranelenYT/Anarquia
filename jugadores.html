@@ -4,6 +4,79 @@
 <meta charset="UTF-8">
 <title>Jugadores</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+.players-list{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+    margin-top:30px;
+}
+
+.player-card{
+
+    background:rgba(255,255,255,0.04);
+
+    border:1px solid #7b2cbf;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    text-align:center;
+
+    transition:0.3s;
+}
+
+.player-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 0 20px #7b2cbf;
+}
+
+.player-card h3{
+
+    color:#e0c3ff;
+
+    margin-bottom:10px;
+}
+
+.player-card p{
+
+    color:#cfcfcf;
+}
+
+.info-box{
+
+    background:rgba(255,255,255,0.04);
+
+    border:1px solid #7b2cbf;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    margin-bottom:30px;
+}
+
+.counter{
+
+    color:#d8b4ff;
+
+    font-size:1.2rem;
+
+    margin-top:10px;
+}
+
+</style>
+
 </head>
 <body>
 
@@ -19,19 +92,67 @@
 
 <div class="container">
 
-<h2>Jugadores</h2>
+<h2>Jugadores Oficiales</h2>
 
-<div class="players">
+<div class="info-box">
 
-<!-- DUPLICA ESTE BLOQUE PARA MÁS JUGADORES -->
+<p>
 
-<div class="player">
+Estos son los jugadores confirmados para la temporada actual de Anarquía.
 
-<div class="player-photo">
-PROXIMA LISTA DE JUGADORES
+La lista podrá ampliarse si nuevos participantes son aceptados durante la serie.
+
+</p>
+
+<p class="counter">
+Jugadores registrados: 20
+</p>
+
 </div>
 
-</div>
+<div class="players-list">
+
+<div class="player-card"><h3>zetrox_YT</h3></div>
+
+<div class="player-card"><h3>FitoLopezz</h3></div>
+
+<div class="player-card"><h3>HarrisinCTV</h3></div>
+
+<div class="player-card"><h3>Sinrow_</h3></div>
+
+<div class="player-card"><h3>ITZ_9</h3></div>
+
+<div class="player-card"><h3>FranelenYT</h3></div>
+
+<div class="player-card"><h3>CatTop_</h3></div>
+
+<div class="player-card"><h3>XhugoxMC</h3></div>
+
+<div class="player-card"><h3>Adr_xdc</h3></div>
+
+<div class="player-card"><h3>WILLYGAMER10</h3></div>
+
+<div class="player-card"><h3>peppe_t_potato</h3></div>
+
+<div class="player-card"><h3>mario_302</h3></div>
+
+<div class="player-card"><h3>DoggyXD2</h3></div>
+
+<div class="player-card"><h3>Epepsito17</h3></div>
+
+<div class="player-card"><h3>BrisoteHDF</h3></div>
+
+<div class="player-card"><h3>Miann92w</h3></div>
+
+<div class="player-card"><h3>CandadoAxul</h3></div>
+
+<div class="player-card"><h3>Oliver_elMago</h3></div>
+
+<div class="player-card"><h3>notchocolate3</h3></div>
+
+<div class="player-card"><h3>xyminis</h3></div>
+
+<div class="player-card"><h3>edey</h3></div>
 
 </div>
 
