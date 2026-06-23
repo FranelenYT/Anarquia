@@ -318,3 +318,23 @@ footer{
     max-width:90%;
     margin-bottom:40px;
 }
+summary{
+    cursor:pointer;
+    list-style:none;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
+
+summary h3{
+    margin:0;
+}
+
+details[open]{
+    box-shadow:0 0 25px #7b2cbf;
+}
+
+.player-card p{
+    margin-top:10px;
+}
